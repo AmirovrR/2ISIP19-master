@@ -1,0 +1,29 @@
+﻿<Window x:Class="AmirovR.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AmirovR"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="150"/>
+        </Grid.ColumnDefinitions>
+        <Grid Background="Gray" Grid.Column="0"/>
+        <Grid Background="AntiqueWhite" Grid.Column="1"/>
+        <Grid Background="Aquamarine" Grid.Column="2"/>
+        <Button Content="Настройки" HorizontalAlignment="Center" VerticalAlignment="Bottom" x:Name="btn_settings" Click="Btn_settings_Click" Margin="10,0,10,25" Width="130"/>
+        <Button Content="Выход" HorizontalAlignment="Center" VerticalAlignment="Bottom" x:Name="btn_exit" Click="Btn_exit_Click" Margin="10,0" Width="130"/>
+        <Button Content="Frame1" HorizontalAlignment="Center" VerticalAlignment="Bottom" x:Name="btn_frame" Click="Btn_frame_Click" Margin="10,0,10,50" Width="130"/>
+        <Label Name="Time" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="9,0,11,226" Width="130"/>
+        <StackPanel>
+            <Image Source="Imagies/2.jpg" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+
+        </StackPanel>
+        <Frame x:Name="PageViwer" Grid.Column="2"/>
+    </Grid>
+</Window>

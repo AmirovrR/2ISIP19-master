@@ -1,0 +1,17 @@
+﻿<Application x:Class="AmirovR.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:AmirovR"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="Nao" TargetType="Button">
+            <Setter Property="Background" Value="Aquamarine"></Setter>
+        </Style>
+        <Style x:Key="Nao1" TargetType="Button">
+            <Setter Property="Background" Value="Aquamarine"></Setter>
+        </Style>
+        <Style x:Key="Nao2" TargetType="Button">
+            <Setter Property="Background" Value="Aquamarine"></Setter>
+        </Style>
+    </Application.Resources>
+</Application>
